@@ -25,6 +25,6 @@ namespace KillMessage.Commands
 
         public string Command { get; } = "deletekmsg";
         public string[] Aliases { get; } = new[] {"delete", "del"};
-        public string Description { get; } = "Deletes your kill message";
+        public string Description { get; } = "删除你的击杀信息";
     }
 }

@@ -54,6 +54,6 @@ namespace KillMessage.Commands
 
         public string Command { get; } = "setkmsg";
         public string[] Aliases { get; } = new[] {"set"};
-        public string Description { get; } = "Sets your kill message";
+        public string Description { get; } = "设置你的击杀信息";
     }
 }

@@ -19,6 +19,6 @@ namespace KillMessage.Commands
 
         public string Command { get; } = "togglekmsg";
         public string[] Aliases { get; } = {"toggle"};
-        public string Description { get; } = "Toggles whether or not you can see kill messages";
+        public string Description { get; } = "切换你是否能看到杀人信息";
     }
 }

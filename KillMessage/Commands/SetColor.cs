@@ -43,6 +43,6 @@ namespace KillMessage.Commands
 
         public string Command { get; } = "color";
         public string[] Aliases { get; } = {"setcolorkmsg", "setcolor"};
-        public string Description { get; } = "Sets your kill message color";
+        public string Description { get; } = "设置你的击杀信息颜色";
     }
 }

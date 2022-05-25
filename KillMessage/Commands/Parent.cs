@@ -40,7 +40,7 @@ namespace KillMessage.Commands
 
         public override string Command { get; } = "killmessage";
         public override string[] Aliases { get; } = {"kmsg"};
-        public override string Description { get; } = "Sets or deletes your kill message. Available commands: kmsg set, kmsg delete, kmsg toggle, kmsg color";
+        public override string Description { get; } = "设置或删除您的击杀信息。可用命令：ksmg set，ksmg delete，kmsg toggle，kmsg color";
         
     }
 }
