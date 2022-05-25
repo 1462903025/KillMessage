@@ -25,11 +25,7 @@ namespace KillMessage.Commands
         
         protected override bool ExecuteParent(ArraySegment<string> arguments, ICommandSender sender, out string response)
         {
-            if (!sender.CheckPermission("kmsg"))
-            {
-                response = Plugin.Singleton.Translation.NoPerms;
-                return false;
-            }
+           
 
             Player p = Player.Get(sender);
             string current = p.GetMessage();

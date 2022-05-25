@@ -12,11 +12,7 @@ namespace KillMessage.Commands
     {
         public bool Execute(ArraySegment<string> arguments, ICommandSender sender, out string response)
         {
-            if (!sender.CheckPermission("kmsg"))
-            {
-                response = Plugin.Singleton.Translation.NoPerms;
-                return false;
-            }
+           
             
             Player.Get(sender).UpdateMessage();
             response = Plugin.Singleton.Translation.DeleteCmd;
